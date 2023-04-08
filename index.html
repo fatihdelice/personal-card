@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>John Doe</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body class="dark-theme">
+    <div class="container-fluid">
+        <div class="row pt-4">
+            <main class="col-md-9 ms-sm-auto col-lg-10 px-md-4">
+                <div class="row">
+                    <div class="card bg-transparent border-0">
+                        <div class="position-relative row">
+                            <div class="col-lg-6 col-md-6 col-sm-12">
+                                <div class="row d-flex align-items-center">
+                                    <div class="d-flex col-md-6 col-sm-12 col-12">
+                                        <div class="d-flex justify-content-center avatar-lg m-auto">
+                                            <img src="/images/avatar.jpg" alt="John Doe" class="avatar-image">
+                                        </div>
+                                    </div>
+                                    <div class="d-none d-sm-block col">
+                                        <div class="ms-2" style="float: left;">
+                                            <h5 class="font-24 text-white">John Doe</h5>
+                                        </div>
+                                    </div>
+                                    <div class="position-relative justify-content-center row"
+                                        style="margin-right: 0px; padding-right: 0px;">
+                                        <div class="d-block d-md-none mt-4 text-center col-md-8 col-sm-8 col-8">
+                                            <div class="">
+                                                <h5 class="font-24 text-white">John Doe</h5>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12">
+                        <ul class="nav nav-pills mb-3 nav-fill tabs" id="pills-tab" role="tablist">
+                            <div class="col col-sm-4">
+                                <li class="nav-item" role="presentation">
+                                    <button class="nav-link col-sm-4 active" id="pills-home-tab" data-bs-toggle="pill"
+                                        data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home"
+                                        aria-selected="true">
+                                        <img src="/images/icn-profile.svg" alt="" />
+                                        Personal Information
+                                    </button>
+                                </li>
+                            </div>
+                            <div class="col col-sm-4">
+                                <li class="nav-item" role="presentation">
+                                    <button class="nav-link col-sm-4" id="pills-profile-tab" data-bs-toggle="pill"
+                                        data-bs-target="#pills-profile" type="button" role="tab"
+                                        aria-controls="pills-profile" aria-selected="false"><img
+                                            src="/images/icn-socialmedia.svg" alt="" />
+                                        Social Media
+                                    </button>
+                                </li>
+                            </div>
+                            <div class="col col-sm-4">
+                                <li class="nav-item" role="presentation">
+                                    <button class="nav-link col-sm-4" id="pills-contact-tab" data-bs-toggle="pill"
+                                        data-bs-target="#pills-contact" type="button" role="tab"
+                                        aria-controls="pills-contact" aria-selected="false"><img
+                                            src="/images/icn-company.svg" alt="" />
+                                        Company Information
+                                    </button>
+                                </li>
+                            </div>
+                        </ul>
+                        <div class="tab-content" id="pills-tabContent">
+                            <div class="tab-pane fade show active" id="pills-home" role="tabpanel"
+                                aria-labelledby="pills-home-tab" tabindex="0">
+                                <form class="row gridForm">
+                                    <div class="col-md-6">
+                                        <h4 class="mb-4 mt-4 theme-text">Bio</h4>
+                                        <div class="col-md-11 mb-3">
+                                            <div class="input-group">
+                                                <input type="text" class="form-control theme-input" id="input"
+                                                    placeholder="Bio" readonly="" value="CEO" />
+                                                <span class="input-group-text">
+                                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                                        xmlns="http://www.w3.org/2000/svg">
+                                                        <path
+                                                            d="M14 7V7C14 6.06812 14 5.60218 13.8478 5.23463C13.6448 4.74458 13.2554 4.35523 12.7654 4.15224C12.3978 4 11.9319 4 11 4H8C6.11438 4 5.17157 4 4.58579 4.58579C4 5.17157 4 6.11438 4 8V11C4 11.9319 4 12.3978 4.15224 12.7654C4.35523 13.2554 4.74458 13.6448 5.23463 13.8478C5.60218 14 6.06812 14 7 14V14"
+                                                            stroke="white" stroke-opacity="0.8"></path>
+                                                        <rect x="10" y="10" width="10" height="10" rx="2" stroke="white"
+                                                            stroke-opacity="0.8"></rect>
+                                                    </svg>
+                                                </span>
+                                            </div>
+                                        </div>
+                                        <h4 class="mb-4 mt-4 theme-text">Personal Information</h4>
+                                        <div class="col-md-11 mb-3">
+                                            <div class="input-group">
+                                                <input type="text" class="form-control theme-input" id="inputEmail"
+                                                    placeholder="Mail" readonly="" value="mail@address.com">
+                                                <span class="input-group-text">
+                                                    <a href="mailto:mail@address.com" target="_blank" rel="noreferrer">
+                                                        <img src="/images/mail.svg" alt="Mail" />
+                                                    </a>
+                                                </span>
+                                                <span class="input-group-text">
+                                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                                        xmlns="http://www.w3.org/2000/svg">
+                                                        <path
+                                                            d="M14 7V7C14 6.06812 14 5.60218 13.8478 5.23463C13.6448 4.74458 13.2554 4.35523 12.7654 4.15224C12.3978 4 11.9319 4 11 4H8C6.11438 4 5.17157 4 4.58579 4.58579C4 5.17157 4 6.11438 4 8V11C4 11.9319 4 12.3978 4.15224 12.7654C4.35523 13.2554 4.74458 13.6448 5.23463 13.8478C5.60218 14 6.06812 14 7 14V14"
+                                                            stroke="white" stroke-opacity="0.8"></path>
+                                                        <rect x="10" y="10" width="10" height="10" rx="2" stroke="white"
+                                                            stroke-opacity="0.8"></rect>
+                                                    </svg>
+                                                </span>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-11 mb-3">
+                                            <div class="input-group">
+                                                <input type="text" class="form-control theme-input" id="inputCity"
+                                                    placeholder="WhatsApp" readonly="" value="+905555555555">
+                                                <span class="input-group-text">
+                                                    <a href="https://wa.me/+905555555555" target="_blank"
+                                                        rel="noreferrer">
+                                                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                                            xmlns="http://www.w3.org/2000/svg">
+                                                            <path
+                                                                d="M17.0501 2.91006C16.1333 1.98399 15.0412 1.24973 13.8377 0.750111C12.6341 0.250494 11.3432 -0.00448012 10.04 5.95696e-05C4.58005 5.95696e-05 0.130049 4.45006 0.130049 9.91006C0.130049 11.6601 0.590049 13.3601 1.45005 14.8601L0.0500488 20.0001L5.30005 18.6201C6.75005 19.4101 8.38005 19.8301 10.04 19.8301C15.5001 19.8301 19.9501 15.3801 19.9501 9.92006C19.9501 7.27006 18.9201 4.78006 17.0501 2.91006ZM10.04 18.1501C8.56005 18.1501 7.11005 17.7501 5.84005 17.0001L5.54005 16.8201L2.42005 17.6401L3.25005 14.6001L3.05005 14.2901C2.2278 12.977 1.79119 11.4593 1.79005 9.91006C1.79005 5.37006 5.49005 1.67006 10.03 1.67006C12.2301 1.67006 14.3001 2.53006 15.8501 4.09006C16.6175 4.85402 17.2257 5.76272 17.6394 6.76348C18.0531 7.76425 18.2641 8.83717 18.2601 9.92006C18.2801 14.4601 14.5801 18.1501 10.04 18.1501ZM14.5601 11.9901C14.3101 11.8701 13.09 11.2701 12.8701 11.1801C12.64 11.1001 12.4801 11.0601 12.3101 11.3001C12.1401 11.5501 11.67 12.1101 11.53 12.2701C11.39 12.4401 11.24 12.4601 10.99 12.3301C10.74 12.2101 9.94005 11.9401 9.00005 11.1001C8.26005 10.4401 7.77005 9.63006 7.62005 9.38006C7.48005 9.13006 7.60005 9.00006 7.73005 8.87006C7.84005 8.76006 7.98005 8.58006 8.10005 8.44006C8.22005 8.30006 8.27005 8.19006 8.35005 8.03006C8.43005 7.86006 8.39005 7.72006 8.33005 7.60006C8.27005 7.48006 7.77005 6.26006 7.57005 5.76006C7.37005 5.28006 7.16005 5.34006 7.01005 5.33006H6.53005C6.36005 5.33006 6.10005 5.39006 5.87005 5.64006C5.65005 5.89006 5.01005 6.49006 5.01005 7.71006C5.01005 8.93006 5.90005 10.1101 6.02005 10.2701C6.14005 10.4401 7.77005 12.9401 10.25 14.0101C10.84 14.2701 11.3 14.4201 11.66 14.5301C12.25 14.7201 12.7901 14.6901 13.2201 14.6301C13.7001 14.5601 14.6901 14.0301 14.89 13.4501C15.1 12.8701 15.1001 12.3801 15.0301 12.2701C14.9601 12.1601 14.8101 12.1101 14.5601 11.9901Z"
+                                                                fill="white" fill-opacity="0.8"></path>
+                                                        </svg>
+                                                    </a>
+                                                </span>
+                                                <span class="input-group-text">
+                                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                                        xmlns="http://www.w3.org/2000/svg">
+                                                        <path
+                                                            d="M14 7V7C14 6.06812 14 5.60218 13.8478 5.23463C13.6448 4.74458 13.2554 4.35523 12.7654 4.15224C12.3978 4 11.9319 4 11 4H8C6.11438 4 5.17157 4 4.58579 4.58579C4 5.17157 4 6.11438 4 8V11C4 11.9319 4 12.3978 4.15224 12.7654C4.35523 13.2554 4.74458 13.6448 5.23463 13.8478C5.60218 14 6.06812 14 7 14V14"
+                                                            stroke="white" stroke-opacity="0.8"></path>
+                                                        <rect x="10" y="10" width="10" height="10" rx="2" stroke="white"
+                                                            stroke-opacity="0.8"></rect>
+                                                    </svg>
+                                                </span>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-11 mb-3">
+                                            <div class="input-group">
+                                                <input type="text" class="form-control  theme-input" id="inputPhone"
+                                                    placeholder="Enter phone number" readonly="" value="+905555555555">
+                                                <span class="input-group-text">Phone</span>
+                                                <span class="input-group-text">
+                                                    <a href="tel:+905555555555" target="_blank" rel="noreferrer">
+                                                        <img src="/images/phone.svg" alt="Phone">
+                                                    </a>
+                                                </span>
+                                                <span class="input-group-text"><svg width="24" height="24"
+                                                        viewBox="0 0 24 24" fill="none"
+                                                        xmlns="http://www.w3.org/2000/svg">
+                                                        <path
+                                                            d="M14 7V7C14 6.06812 14 5.60218 13.8478 5.23463C13.6448 4.74458 13.2554 4.35523 12.7654 4.15224C12.3978 4 11.9319 4 11 4H8C6.11438 4 5.17157 4 4.58579 4.58579C4 5.17157 4 6.11438 4 8V11C4 11.9319 4 12.3978 4.15224 12.7654C4.35523 13.2554 4.74458 13.6448 5.23463 13.8478C5.60218 14 6.06812 14 7 14V14"
+                                                            stroke="white" stroke-opacity="0.8"></path>
+                                                        <rect x="10" y="10" width="10" height="10" rx="2" stroke="white"
+                                                            stroke-opacity="0.8"></rect>
+                                                    </svg>
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <h4 class="mb-4 mt-4 theme-text">Links</h4>
+                                        <div class="col-md-11 mb-3">
+                                            <div class="input-group"><input type="text" class="form-control theme-input"
+                                                    id="link" placeholder="Link" readonly=""
+                                                    value="namesurname.com"><span class="input-group-text">
+                                                    <a href="www.namesurname.com" target="_blank" rel="noreferrer"><img
+                                                            src="/images/web.svg" alt="Link">
+                                                    </a>
+                                                </span>
+                                                <span class="input-group-text theme-input">
+                                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                                        xmlns="http://www.w3.org/2000/svg">
+                                                        <path
+                                                            d="M14 7V7C14 6.06812 14 5.60218 13.8478 5.23463C13.6448 4.74458 13.2554 4.35523 12.7654 4.15224C12.3978 4 11.9319 4 11 4H8C6.11438 4 5.17157 4 4.58579 4.58579C4 5.17157 4 6.11438 4 8V11C4 11.9319 4 12.3978 4.15224 12.7654C4.35523 13.2554 4.74458 13.6448 5.23463 13.8478C5.60218 14 6.06812 14 7 14V14"
+                                                            stroke="white" stroke-opacity="0.8"></path>
+                                                        <rect x="10" y="10" width="10" height="10" rx="2" stroke="white"
+                                                            stroke-opacity="0.8"></rect>
+                                                    </svg>
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="tab-pane fade show" id="pills-profile" role="tabpanel"
+                                aria-labelledby="pills-profile-tab" tabindex="0">
+                                <form class="row gridForm">
+                                    <div class="col-md-8">
+                                        <h4 class="mb-4 mt-4 theme-text">Social Media Accounts</h4>
+                                        <div class="list-group list-group-horizontal row">
+                                            <div class="list-group-item col-sm-2 col-3">
+                                                <div>
+                                                    <a href="https://instagram.com/" target="_blank" rel="noreferrer"
+                                                        id="">
+                                                        <button type="button"
+                                                            class="btn btn-secondary social-media-button"
+                                                            id="tooltip-instagram">
+                                                            <img src="/images/instagram.svg">
+                                                        </button>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="list-group-item col-sm-2 col-3">
+                                                <div>
+                                                    <a href="https://twitter.com/" target="_blank" rel="noreferrer"
+                                                        id="">
+                                                        <button type="button"
+                                                            class="btn btn-secondary social-media-button"
+                                                            id="tooltip-twitter">
+                                                            <img src="/images/twitter.svg">
+                                                        </button>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="list-group-item col-sm-2 col-3">
+                                                <div>
+                                                    <a href="https://linkedin.com/in/" target="_blank" rel="noreferrer"
+                                                        id="">
+                                                        <button type="button"
+                                                            class="btn btn-secondary social-media-button"
+                                                            id="tooltip-linkedin">
+                                                            <img src="/images/linkedin.svg">
+                                                        </button>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="tab-pane fade show" id="pills-contact" role="tabpanel"
+                                aria-labelledby="pills-contact-tab" tabindex="0">
+                                <form class="row gridForm">
+                                    <div class="col-md-6">
+                                        <h4 class="mb-4 mt-4 theme-text">Company Information</h4>
+                                        <label class="form-label text-white" for="name">Company Name</label>
+                                        <div class="col-md-11">
+                                            <div class="input-group">
+                                                <input type="text" class="form-control theme-input" id="input"
+                                                    placeholder="Enter company name" readonly="" value="Big Company">
+                                                <span class="input-group-text">
+                                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                                        xmlns="http://www.w3.org/2000/svg">
+                                                        <path
+                                                            d="M14 7V7C14 6.06812 14 5.60218 13.8478 5.23463C13.6448 4.74458 13.2554 4.35523 12.7654 4.15224C12.3978 4 11.9319 4 11 4H8C6.11438 4 5.17157 4 4.58579 4.58579C4 5.17157 4 6.11438 4 8V11C4 11.9319 4 12.3978 4.15224 12.7654C4.35523 13.2554 4.74458 13.6448 5.23463 13.8478C5.60218 14 6.06812 14 7 14V14"
+                                                            stroke="white" stroke-opacity="0.8"></path>
+                                                        <rect x="10" y="10" width="10" height="10" rx="2" stroke="white"
+                                                            stroke-opacity="0.8"></rect>
+                                                    </svg>
+                                                </span>
+                                            </div>
+                                        </div>
+                                        <label class="form-label text-white" for="address">Address</label>
+                                        <div class="col-md-11 mb-3">
+                                            <div class="input-group">
+                                                <textarea type="text" class="form-control theme-input" id="inputArea"
+                                                    placeholder="Address" readonly=""
+                                                    rows="3">Bohemia, New York(NY), 11716</textarea>
+                                                <span class="input-group-text">
+                                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                                        xmlns="http://www.w3.org/2000/svg">
+                                                        <path
+                                                            d="M14 7V7C14 6.06812 14 5.60218 13.8478 5.23463C13.6448 4.74458 13.2554 4.35523 12.7654 4.15224C12.3978 4 11.9319 4 11 4H8C6.11438 4 5.17157 4 4.58579 4.58579C4 5.17157 4 6.11438 4 8V11C4 11.9319 4 12.3978 4.15224 12.7654C4.35523 13.2554 4.74458 13.6448 5.23463 13.8478C5.60218 14 6.06812 14 7 14V14"
+                                                            stroke="white" stroke-opacity="0.8"></path>
+                                                        <rect x="10" y="10" width="10" height="10" rx="2" stroke="white"
+                                                            stroke-opacity="0.8"></rect>
+                                                    </svg>
+                                                </span>
+                                            </div>
+                                        </div>
+                                        <label class="form-label text-white" for="name">Company Phone</label>
+                                        <div class="col-md-11 mb-3">
+                                            <div class="input-group"><input type="text"
+                                                    class="form-control  theme-input" id="inputPhone"
+                                                    placeholder="Phone number" readonly=""
+                                                    value="+905555555555"><span
+                                                    class="input-group-text">Phone</span><span class="input-group-text">
+                                                    <a href="tel:+905555555555" target="_blank" rel="noreferrer">
+                                                        <img src="/images/phone.svg" alt="Phone">
+                                                    </a>
+                                                </span>
+                                                <span class="input-group-text">
+                                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                                        xmlns="http://www.w3.org/2000/svg">
+                                                        <path
+                                                            d="M14 7V7C14 6.06812 14 5.60218 13.8478 5.23463C13.6448 4.74458 13.2554 4.35523 12.7654 4.15224C12.3978 4 11.9319 4 11 4H8C6.11438 4 5.17157 4 4.58579 4.58579C4 5.17157 4 6.11438 4 8V11C4 11.9319 4 12.3978 4.15224 12.7654C4.35523 13.2554 4.74458 13.6448 5.23463 13.8478C5.60218 14 6.06812 14 7 14V14"
+                                                            stroke="white" stroke-opacity="0.8"></path>
+                                                        <rect x="10" y="10" width="10" height="10" rx="2" stroke="white"
+                                                            stroke-opacity="0.8"></rect>
+                                                    </svg>
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <h4 class="mb-4 mt-4 theme-text">Bank Information</h4>
+                                        <label class="form-label text-white" for="name">IBAN</label>
+                                        <div class="col-md-11">
+                                            <div class="input-group">
+                                                <input type="text" class="form-control theme-input" id="input"
+                                                    placeholder="Enter iban" readonly="" value="GB38BARC20038481427431">
+                                                <span class="input-group-text">
+                                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                                        xmlns="http://www.w3.org/2000/svg">
+                                                        <path
+                                                            d="M14 7V7C14 6.06812 14 5.60218 13.8478 5.23463C13.6448 4.74458 13.2554 4.35523 12.7654 4.15224C12.3978 4 11.9319 4 11 4H8C6.11438 4 5.17157 4 4.58579 4.58579C4 5.17157 4 6.11438 4 8V11C4 11.9319 4 12.3978 4.15224 12.7654C4.35523 13.2554 4.74458 13.6448 5.23463 13.8478C5.60218 14 6.06812 14 7 14V14"
+                                                            stroke="white" stroke-opacity="0.8"></path>
+                                                        <rect x="10" y="10" width="10" height="10" rx="2" stroke="white"
+                                                            stroke-opacity="0.8"></rect>
+                                                    </svg>
+                                                </span>
+                                            </div>
+                                        </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </main>
+        </div>
+    </div>
+</body>
+
+</html>
